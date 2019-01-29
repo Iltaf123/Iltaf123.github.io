@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    font-size: 14px;
+    width: 80px;
+    height: 50px;
+}
+
+.navbar {
+    background-color: #5E44B5;
+    color: #fff;
+}
+
+img {
+    width: 100%;
+}
+
+.margin-top {
+    margin-top: 40px;
+}
+
+#myCarousel {
+    position: relative;
+    margin-top: -20px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.carousel-caption {
+    top: 10%;
+    transform: translateY(-50%);
+    transform: translateX(-20%);
+    font-size: 25px;
+    color: aqua;
+}
+
+.btn {
+    background-color: #5E44B5;
+    padding: 12px 22px;
+    border: 2px solid white;
+    font-size: 13px;
+}
+
+.text {
+    margin-top: 10px;
+}
+
+.para {
+    margin-top: 120px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    color: black;
+}
+
+.fas {
+    font-size: 50px;
+}
+
+
+}
+@media(max-width:600px) {
+    .carousel-caption {
+        display: none;
+    }
+}
